@@ -1,0 +1,6 @@
+com.bigOne.stayfit.test.app-annotation-experimental-1.4.0-0 C:\Users\acer\.gradle\caches\transforms-3\64f6128702d0b18c65b2c832ee899a56\transformed\annotation-experimental-1.4.0\res
+com.bigOne.stayfit.test.app-core-1.5.0-1 C:\Users\acer\.gradle\caches\transforms-3\e858a70cd7a2e64b8828d72da40b9a11\transformed\core-1.5.0\res
+com.bigOne.stayfit.test.app-androidTest-2 E:\project\Stayfit_shahana_mca\app\build\generated\res\resValues\androidTest\debug
+com.bigOne.stayfit.test.app-mergeDebugAndroidTestResources-3 E:\project\Stayfit_shahana_mca\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.bigOne.stayfit.test.app-mergeDebugAndroidTestResources-4 E:\project\Stayfit_shahana_mca\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.bigOne.stayfit.test.app-merged_res-5 E:\project\Stayfit_shahana_mca\app\build\intermediates\merged_res\debugAndroidTest

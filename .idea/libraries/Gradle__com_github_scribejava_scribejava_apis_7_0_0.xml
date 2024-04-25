@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.scribejava:scribejava-apis:7.0.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.github.scribejava" artifactId="scribejava-apis" version="7.0.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/7.0.0/99883fc5b0ce2c7dff85312e39999e39382ffd80/scribejava-apis-7.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/7.0.0/d33595f6befab122f3a4183b084af2a74079cd3a/scribejava-apis-7.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/modules-2/files-2.1/com.github.scribejava/scribejava-apis/7.0.0/3709b15c3af1c7a7eaae6886a9dc23b5f5c0677d/scribejava-apis-7.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-ui-ktx:2.7.7@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/0a72e49401fa0143f14a5d9b7c6e2c8a/transformed/navigation-ui-ktx-2.7.7/res" />
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/0a72e49401fa0143f14a5d9b7c6e2c8a/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/0a72e49401fa0143f14a5d9b7c6e2c8a/transformed/navigation-ui-ktx-2.7.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/modules-2/files-2.1/androidx.navigation/navigation-ui-ktx/2.7.7/2ad14aed781c4a73ed4dbb421966d408a0a06686/navigation-ui-ktx-2.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

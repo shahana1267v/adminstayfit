@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-ktx:8.0.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/d1fd7688961eb38867d921af59a519f9/transformed/databinding-ktx-8.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/d1fd7688961eb38867d921af59a519f9/transformed/databinding-ktx-8.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

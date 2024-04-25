@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bigOne.adminstayfit.app-mergeDebugResources-64:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\caches\\transforms-3\\6cec6e061f6b34c00f138cfa6ce460e5\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

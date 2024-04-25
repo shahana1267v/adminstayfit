@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bigOne.adminstayfit.app-mergeDebugResources-64:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\caches\\transforms-3\\09d58e6e5a2bff670412d0f8b3c32df3\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

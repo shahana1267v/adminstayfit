@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.bigOne.adminstayfit.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_bmi_fragment"
+            app:destination="@id/bmi_fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mealLogFragment"
+            app:destination="@id/mealLogFragment">
+            <argument
+                android:name="mealType"
+                app:argType="integer" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/bmi_fragment"
+        android:name="com.bigOne.adminstayfit.ui.bmi_calculator.BmiFragment"
+        android:label="fragment_bmi_fragment"
+        tools:layout="@layout/bmi_fragment" >
+        <action
+            android:id="@+id/action_bmi_fragment_to_bmi_calculator"
+            app:destination="@id/bmi_calculator" />
+    </fragment>
+    <fragment
+        android:id="@+id/bmi_calculator"
+        android:name="com.bigOne.adminstayfit.ui.bmi_calculator.BmiCalculatorFragment"
+        android:label="fragment_bmi_calculator"
+        tools:layout="@layout/fragment_bmi_calculator" >
+        <action
+            android:id="@+id/action_bmi_calculator_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealLogFragment"
+        android:name="com.bigOne.adminstayfit.ui.meal.MealLogFragment"
+        tools:layout="@layout/fragment_meallog"
+        android:label="MealLogFragment">
+        <argument
+            android:name="mealType"
+            app:argType="integer" />
+    </fragment>
+    <dialog
+        android:id="@+id/mealTypeFragment"
+        android:name="com.bigOne.adminstayfit.ui.meal.MealTypeFragment"
+        tools:layout="@layout/fragment_meallogsave"
+        android:label="MealTypeFragment" >
+        <action
+            android:id="@+id/action_mealTypeFragment_to_mealLogListSaveFragment"
+            app:destination="@id/mealLogListSaveFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/mealLogListSaveFragment"
+        tools:layout="@layout/fragment_savemeal_list"
+        android:name="com.bigOne.adminstayfit.ui.meal.MealLogListSaveFragment"
+        android:label="MealLogListSaveFragment" />
+</navigation>

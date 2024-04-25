@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/1f801b07e65c4a26289282d1fb9532d9/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/1f801b07e65c4a26289282d1fb9532d9/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

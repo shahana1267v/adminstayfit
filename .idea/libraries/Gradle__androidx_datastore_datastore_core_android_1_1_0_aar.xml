@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.datastore:datastore-core-android:1.1.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/2c322075f272174b9cf5810d50bb96ff/transformed/datastore-core-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/2c322075f272174b9cf5810d50bb96ff/transformed/datastore-core-release/res" />
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/2c322075f272174b9cf5810d50bb96ff/transformed/datastore-core-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/modules-2/files-2.1/androidx.datastore/datastore-core-android/1.1.0/76ea458b500a145de97b32d15826f08c73b91cec/datastore-core-android-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

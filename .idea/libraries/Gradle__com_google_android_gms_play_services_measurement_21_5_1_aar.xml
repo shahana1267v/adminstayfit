@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement:21.5.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/ced48cd0fde4d3a4b8a7b69e39a62f90/transformed/play-services-measurement-21.5.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/transforms-3/ced48cd0fde4d3a4b8a7b69e39a62f90/transformed/play-services-measurement-21.5.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../StayfitAdmin/app/src/main/res/drawable/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement/21.5.1/fc12ad11d39c8f0be4e303dea49c434040bbe543/play-services-measurement-21.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

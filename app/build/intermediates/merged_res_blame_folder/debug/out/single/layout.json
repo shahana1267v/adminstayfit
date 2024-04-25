@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/fragment_login.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/fragment_trainer.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/fragment_trainer.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/fragment_trainer_adapter.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/fragment_trainer_adapter.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/activity_main.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/fragment_user_adapter.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/fragment_user_adapter.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/list_trainer_item.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/list_trainer_item.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/fragment_home.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/fragment_login_user.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/fragment_login_user.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/list_item.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.bigOne.adminstayfit.app-mergeDebugResources-65:/layout/list_user_item.xml",
+        "source": "com.bigOne.adminstayfit.app-main-68:/layout/list_user_item.xml"
+    }
+]
