@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">StayFitAdmin</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_course">Course</string>
+    <string name="title_account">Profile</string>
+
+    <string name="bmi_Text_head">BMI(Body Mass Index.)</string>
+    <string name="bmi_Text_subhead">You have a Normal Body</string>
+    <string name="bmi_see_more">See More</string>
+
+    <string name="welcome_text">Hi,</string>
+    <string name="calorie_text">Eat up to</string>
+    <string name="calorie">1780 calorie</string>
+    <string name="add_icon_btn">add icon</string>
+
+
+    <string name="track_your_target_text">Log Your Meal!</string>
+    <string name="track_your_target_sub_text">You can track Your Daily calories by entering your meal !</string>
+    <string name="enter_weight_sub_text">Enter weight here.</string>
+    <string name="weight_text_heading">Weight</string>
+    <string name="add_weight_text">Add weight</string>
+    <string name="log_your_meal">Log Your meal</string>
+
+    <string name="let_s_complete_your_profile">Let\'s complete your profile</string>
+    <string name="complete_profile">Let\'s complete your profile</string>
+    <string name="profile_subtext">It will help us to know more about you..</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight</string>
+    <string name="next_icon">Next</string>
+    <string name="overweight">Overweight</string>
+    <string name="normal">Normal</string>
+    <string name="underweight">Underweight</string>
+    <string name="obese">Obese</string>
+    <string name="highly_obese">Highly Obese</string>
+    <string name="extremely_obese">Extremely Obese</string>
+    <string name="_18_5"><![CDATA[18.5<]]></string>
+    <string name="_18_5_24_9">18.5-24.9</string>
+    <string name="_25_29_9">25-29.9</string>
+    <string name="_30_34_9">30-34.9</string>
+    <string name="_35_39_9">35-39.9</string>
+    <string name="_40"><![CDATA[40>]]></string>
+
+
+    <string name="meal_type">Meal Type</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="morning_snack">Morning Snack</string>
+    <string name="dinner">Dinner</string>
+    <string name="evening_snack">Evening Snack</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="enter_height">Height</string>
+    <string name="dob">DOB</string>
+    <string name="date_of_birth_select_text">Select Date of Birth</string>
+    <string name="enter_your_password_">Enter Your Password</string>
+
+    <string name="login_text">Login</string>
+    <string name="or_text">--OR---</string>
+    <string name="signup_text">Not Login yet Please Sign Up?</string>
+    <string name="enter_your_mail_id">Enter Your Mail ID</string>
+
+    <string name="breakfast_meal">Breakfast</string>
+    <string name="searchfood">SearchFood</string>
+    <string name="food">Food</string>
+    <string name="idiyappam">idiyappam</string>
+    <string name="_156kcl">156kcl</string>
+    <string name="_1_serving_45_g">1 serving(45 g)</string>
+    <string name="log_meal">Log Meal</string>
+    <string name="select">string</string>
+    <string name="total_calorie_156_kcal">Total calorie : 156 kcal</string>
+    <string name="button">Button</string>
+    <string name="add_food">Add food</string>
+    <string name="save_as_custom_meal">Save as custom meal</string>
+    <string name="save">Save</string>
+
+
+    <string name="login_logged_in_as">Login in as</string>
+    <string name="general_save">Save</string>
+    <string name="general_cancel">Cancel</string>
+    <string name="general_next">Next</string>
+    <string name="kg">KG</string>
+    <string name="cm">CM</string>
+    <string-array name="gender_options">
+            <item>Other</item>
+            <item>Female</item>
+            <item>Male</item>
+    </string-array>
+
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="select_serving">Select a Size</string>
+    <string name="calorie_unit_text">Kacl</string>
+    <string name="total_calories_heading">Total Calories:</string>
+    <string name="calorie_title">Calorie:</string>
+    <string name="cal_eaten_title">Calorie Eaten</string>
+    <string name="username">Username</string>
+    <string name="user">User</string>
+</resources>

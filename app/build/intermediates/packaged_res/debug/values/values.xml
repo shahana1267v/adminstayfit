@@ -14,6 +14,11 @@
             MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
         </item>
     </string-array>
+    <string-array name="gender_options">
+            <item>Other</item>
+            <item>Female</item>
+            <item>Male</item>
+    </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/poppins</item>
         <item>@font/poppins_bold</item>
@@ -25,7 +30,6 @@
     <color name="black">#1D1617</color>
     <color name="borderColor">#F7F8F8</color>
     <color name="boxColor">#E6E2E2</color>
-    <color name="brown">#964B00</color>
     <color name="colorDanger">#ff5252</color>
     <color name="colorDangerDark">#c50e29</color>
     <color name="colorDangerDarker">#DB2D13</color>
@@ -52,14 +56,12 @@
     <color name="colorWarningLight">#ffff81</color>
     <color name="colorWarningLightDark">#FFC107</color>
     <color name="colorWarningLighter">#FFEFBC</color>
-    <color name="green">#008000</color>
     <color name="greyColor">#ADA4A5</color>
     <color name="greyColorDark">#7B6F72</color>
     <color name="greyColorLight">#DDDADA</color>
     <color name="mtrl_textinput_default_box_stroke_color" ns1:override="true">#9A9A9A</color>
     <color name="primaryColor">#92A3FD</color>
     <color name="primaryColorLight">#9DCEFF</color>
-    <color name="red">#FF0000</color>
     <color name="secondaryColor">#C58BF2</color>
     <color name="secondaryColorLight">#EEA4CE</color>
     <color name="white">#FFFFFF</color>
@@ -90,41 +92,84 @@
     <dimen name="signup_text_margin_top">10dp</dimen>
     <dimen name="tab_spacing">10dp</dimen>
     <dimen name="thin_spacing">2dp</dimen>
-    <item name="action_loginFragment_to_homeFragment" type="id">login to home</item>
-    <item name="admin_name" type="id">name</item>
-    <string name="Adminname">Name</string>
-    <string name="UserName">user\n</string>
-    <string name="app_name">adminstayfit</string>
-    <string name="approve">approve</string>
-    <string name="default_web_client_id" translatable="false">583288639906-scmbrq0qh76iedfe5q4sts5mmfvsjrlg.apps.googleusercontent.com</string>
-    <string name="delete">delete</string>
-    <string name="email">email</string>
-    <string name="email_id">email</string>
-    <string name="enter_your_mail_id">mail\n</string>
-    <string name="enter_your_password">pswd</string>
-    <string name="gcm_defaultSenderId" translatable="false">583288639906</string>
-    <string name="google_api_key" translatable="false">AIzaSyB1qUs8V4VBwKVPqaeLc-txmgYTjkP3-vs</string>
-    <string name="google_app_id" translatable="false">1:583288639906:android:6be777c9b617a93cd6a2fb</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB1qUs8V4VBwKVPqaeLc-txmgYTjkP3-vs</string>
-    <string name="google_storage_bucket" translatable="false">stayfit-5cbfc.appspot.com</string>
+    <string name="_156kcl">156kcl</string>
+    <string name="_18_5"><![CDATA[18.5<]]></string>
+    <string name="_18_5_24_9">18.5-24.9</string>
+    <string name="_1_serving_45_g">1 serving(45 g)</string>
+    <string name="_25_29_9">25-29.9</string>
+    <string name="_30_34_9">30-34.9</string>
+    <string name="_35_39_9">35-39.9</string>
+    <string name="_40"><![CDATA[40>]]></string>
+    <string name="add_food">Add food</string>
+    <string name="add_icon_btn">add icon</string>
+    <string name="add_weight_text">Add weight</string>
+    <string name="app_name">StayFitAdmin</string>
+    <string name="bmi_Text_head">BMI(Body Mass Index.)</string>
+    <string name="bmi_Text_subhead">You have a Normal Body</string>
+    <string name="bmi_see_more">See More</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="breakfast_meal">Breakfast</string>
+    <string name="button">Button</string>
+    <string name="cal_eaten_title">Calorie Eaten</string>
+    <string name="calorie">1780 calorie</string>
+    <string name="calorie_text">Eat up to</string>
+    <string name="calorie_title">Calorie:</string>
+    <string name="calorie_unit_text">Kacl</string>
+    <string name="cancel">Cancel</string>
+    <string name="cm">CM</string>
+    <string name="complete_profile">Let\'s complete your profile</string>
+    <string name="date_of_birth_select_text">Select Date of Birth</string>
+    <string name="dinner">Dinner</string>
+    <string name="dob">DOB</string>
+    <string name="enter_height">Height</string>
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="enter_weight_sub_text">Enter weight here.</string>
+    <string name="enter_your_mail_id">Enter Your Mail ID</string>
+    <string name="enter_your_password_">Enter Your Password</string>
+    <string name="evening_snack">Evening Snack</string>
+    <string name="extremely_obese">Extremely Obese</string>
+    <string name="food">Food</string>
+    <string name="gender">Gender</string>
+    <string name="general_cancel">Cancel</string>
+    <string name="general_next">Next</string>
+    <string name="general_save">Save</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hello_world">Hello World!</string>
-    <string name="id">id</string>
-    <string name="login">Login</string>
-    <string name="login_admin">admin\n</string>
-    <string name="loginadmin">Login</string>
-    <string name="name">string</string>
-    <string name="names">Name</string>
-    <string name="password">Password</string>
-    <string name="project_id" translatable="false">stayfit-5cbfc</string>
-    <string name="request">reqst</string>
-    <string name="trainer"/>
-    <string name="trainer_trainers">Trainer</string>
-    <string name="trainers">trainer</string>
-    <string name="username">usrname</string>
-    <string name="users">Users</string>
-    <string name="users1">user</string>
-    <style name="Base.Theme.adminstayfit" parent="Theme.Material3.Light.NoActionBar">
+    <string name="highly_obese">Highly Obese</string>
+    <string name="idiyappam">idiyappam</string>
+    <string name="kg">KG</string>
+    <string name="let_s_complete_your_profile">Let\'s complete your profile</string>
+    <string name="log_meal">Log Meal</string>
+    <string name="log_your_meal">Log Your meal</string>
+    <string name="login_logged_in_as">Login in as</string>
+    <string name="login_text">Login</string>
+    <string name="lunch">Lunch</string>
+    <string name="meal_type">Meal Type</string>
+    <string name="morning_snack">Morning Snack</string>
+    <string name="next_icon">Next</string>
+    <string name="normal">Normal</string>
+    <string name="obese">Obese</string>
+    <string name="or_text">--OR---</string>
+    <string name="overweight">Overweight</string>
+    <string name="profile_subtext">It will help us to know more about you..</string>
+    <string name="save">Save</string>
+    <string name="save_as_custom_meal">Save as custom meal</string>
+    <string name="searchfood">SearchFood</string>
+    <string name="select">string</string>
+    <string name="select_serving">Select a Size</string>
+    <string name="signup_text">Not Login yet Please Sign Up?</string>
+    <string name="title_account">Profile</string>
+    <string name="title_course">Course</string>
+    <string name="title_home">Home</string>
+    <string name="total_calorie_156_kcal">Total calorie : 156 kcal</string>
+    <string name="total_calories_heading">Total Calories:</string>
+    <string name="track_your_target_sub_text">You can track Your Daily calories by entering your meal !</string>
+    <string name="track_your_target_text">Log Your Meal!</string>
+    <string name="underweight">Underweight</string>
+    <string name="username">Username</string>
+    <string name="weight">Weight</string>
+    <string name="weight_text_heading">Weight</string>
+    <string name="welcome_text">Hi,</string>
+    <style name="Base.Theme.StayFit" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryColorLight</item>
         <item name="colorSecondary">@color/secondaryColor</item>
@@ -134,7 +179,7 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12sp</item>
         <item name="iconTint">@color/black</item>
-        <item name="textAppearanceButton">@style/TextAppearance.adminstayfit.bodyMedium</item>
+        <item name="textAppearanceButton">@style/TextAppearance.StayFit.bodyMedium</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:background">@drawable/bg_button</item>
         <item name="backgroundTint">@color/greyColorLight</item>
@@ -170,6 +215,7 @@
         <item name="iconTint">@color/black</item>
         <item name="backgroundTint">@color/white</item>
         <item name="android:layout_gravity">center</item>
+        <item name="corner_radius">@dimen/element_spacing</item>
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
         <item name="android:paddingTop">24dp</item>
@@ -184,7 +230,9 @@
         <item name="android:textSize">12sp</item>
         <item name="textAllCaps">false</item>
         <item name="iconTint">@color/black</item>
-        <item name="strokeColor">@color/black</item>
+        <item name="corner_radius">@dimen/element_spacing</item>
+        <item name="strokeColor">@color/greyColorDark</item>
+        <item name="strokeWidth">2dp</item>
     </style>
     <style name="Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
         <item name="android:textColor">@color/colorInfoDarker</item>
@@ -294,61 +342,61 @@
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textSize">18sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
+    <style name="TextAppearance.StayFit.Headline1" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="fontFamily">@font/poppins</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">42sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.bodyLarge" parent="TextAppearance.Material3.BodyLarge">
+    <style name="TextAppearance.StayFit.bodyLarge" parent="TextAppearance.Material3.BodyLarge">
         <item name="fontFamily">@font/poppins_semibold</item>
         <item name="android:fontFamily">@font/poppins_semibold</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.bodyMedium" parent="TextAppearance.Material3.BodyMedium">
+    <style name="TextAppearance.StayFit.bodyMedium" parent="TextAppearance.Material3.BodyMedium">
         <item name="fontFamily">@font/poppins_medium</item>
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">14sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.bodySmall" parent="TextAppearance.Material3.BodySmall">
+    <style name="TextAppearance.StayFit.bodySmall" parent="TextAppearance.Material3.BodySmall">
         <item name="fontFamily">@font/poppins</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textColor">@color/greyColor</item>
         <item name="android:textSize">12sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.h3" parent="TextAppearance.Material3.HeadlineMedium">
+    <style name="TextAppearance.StayFit.h3" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="fontFamily">@font/poppins</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">24sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.h4" parent="TextAppearance.Material3.HeadlineMedium">
+    <style name="TextAppearance.StayFit.h4" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="fontFamily">@font/poppins_medium</item>
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.h4Bold" parent="TextAppearance.Material3.HeadlineMedium">
+    <style name="TextAppearance.StayFit.h4Bold" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="fontFamily">@font/poppins_bold</item>
         <item name="android:fontFamily">@font/poppins_bold</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">20sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.label" parent="TextAppearance.Material3.LabelMedium">
+    <style name="TextAppearance.StayFit.label" parent="TextAppearance.Material3.LabelMedium">
         <item name="fontFamily">@font/poppins</item>
         <item name="android:fontFamily">@font/poppins</item>
         <item name="android:textColor">@color/greyColorDark</item>
         <item name="android:textSize">12sp</item>
     </style>
-    <style name="TextAppearance.adminstayfit.labelSmall" parent="TextAppearance.Material3.LabelSmall">
+    <style name="TextAppearance.StayFit.labelSmall" parent="TextAppearance.Material3.LabelSmall">
         <item name="fontFamily">@font/poppins_light</item>
         <item name="android:fontFamily">@font/poppins_light</item>
         <item name="android:textColor">@color/greyColorDark</item>
         <item name="android:textSize">12sp</item>
     </style>
-    <style name="Theme.adminstayfit" parent="Base.Theme.adminstayfit"/>
+    <style name="Theme.StayFit" parent="Base.Theme.StayFit"/>
     <style name="ThemeMaterialCalendar" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
         <item name="buttonBarPositiveButtonStyle">@style/ThemeMaterialCalendarButton</item>
         <item name="buttonBarNegativeButtonStyle">@style/ThemeMaterialCalendarButtonNegative</item>
@@ -383,6 +431,7 @@
         <item name="strokeColor">@color/black</item>
         <item name="strokeWidth">0dp</item>
         <item name="android:elevation">@dimen/element_spacing</item>
+        <item name="corner_radius">30dp</item>
         <item name="android:outlineProvider">none</item>
     </style>
     <style name="ThemeOverlay.App.Button.Tertiary" parent="">
@@ -407,7 +456,7 @@
         <item name="colorPrimary">@color/black</item>
         <item name="placeholderTextColor">@color/black</item>
         <item name="colorError">@color/colorDangerDark</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.adminstayfit.bodySmall</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.StayFit.bodySmall</item>
         <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
         <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
     </style>
@@ -470,7 +519,7 @@
     <style name="Widget.App.TextInputLayout.Default">
         <item name="android:textColorHint">@color/greyColor</item>
         <item name="hintTextColor">@color/greyColorDark</item>
-        <item name="hintTextAppearance">@style/TextAppearance.adminstayfit.bodyMedium</item>
+        <item name="hintTextAppearance">@style/TextAppearance.StayFit.bodyMedium</item>
         <item name="android:textColor">@color/black</item>
         <item name="boxCornerRadiusTopEnd">@dimen/activity_margin</item>
         <item name="boxCornerRadiusTopStart">@dimen/activity_margin</item>
@@ -481,7 +530,7 @@
     <style name="Widget.App.TextInputLayout.EditText">
         <item name="android:textColorHint">@color/greyColor</item>
         <item name="hintTextColor">@color/greyColor</item>
-        <item name="hintTextAppearance">@style/TextAppearance.adminstayfit.bodyMedium</item>
+        <item name="hintTextAppearance">@style/TextAppearance.StayFit.bodyMedium</item>
     </style>
     <style name="Widget.App.TextInputLayout.LogIn">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayoutLog</item>

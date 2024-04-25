@@ -8,18 +8,15 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.bigOne.adminstayfit.Login.LoginFragment"
-        android:label="Login"
-        tools:layout="@layout/fragment_login" />
-
-    <!-- Define other fragments or destinations as needed -->
-    <!-- For example, a home fragment -->
+        android:name="com.bigOne.stayfit.ui.Login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_loginSuccessFragment"
+            app:destination="@id/loginSuccessFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.bigone.adminstayfit.Home.HomeFragment"
-        android:label="Home"
-        tools:layout="@layout/fragment_home" />
-
-    <!-- Add more destinations as needed -->
+        android:id="@+id/loginSuccessFragment"
+        android:name="com.bigOne.stayfit.ui.Login.LoginSuccessFragment"
+        android:label="LoginSuccessFragment" />
 
 </navigation>

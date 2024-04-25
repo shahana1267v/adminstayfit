@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bigOne.adminstayfit.app-mergeDebugResources-64:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.bigOne.stayfitadmin.app-mergeDebugResources-54:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\caches\\transforms-3\\09d58e6e5a2bff670412d0f8b3c32df3\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\caches\\transforms-3\\44b8c8922eeb51e7fc1cf7ed28e425d7\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

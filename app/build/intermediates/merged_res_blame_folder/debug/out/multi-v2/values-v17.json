@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bigOne.adminstayfit.app-mergeDebugResources-64:/values-v17/values-v17.xml",
+            "outputFile": "com.bigOne.stayfitadmin.app-mergeDebugResources-54:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\caches\\transforms-3\\6cec6e061f6b34c00f138cfa6ce460e5\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\caches\\transforms-3\\88a1fa2a64f8ef99a88c607cb391e7e3\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

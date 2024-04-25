@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.bigOne.adminstayfit",
+  "applicationId": "com.bigOne.stayfitadmin",
   "variantName": "debug",
   "elements": []
 }
