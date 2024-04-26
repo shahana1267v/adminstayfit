@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.FragmentHomeBinding
 import com.bigOne.stayfitadmin.datas.model.UserData
@@ -37,16 +38,21 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         observe()
+        init()
 
     }
+
     private fun observe() {
 
     }
+    private fun init()
+    {
+        binding.apply {
+            usercardView.setOnClickListener{
+                val action = HomeFragmentDirections.actionHomeFragmentToUsersListFragment()
+                findNavController().navigate(action)
+            }
 
-
-
-
-
-
-
+        }
+    }
 }

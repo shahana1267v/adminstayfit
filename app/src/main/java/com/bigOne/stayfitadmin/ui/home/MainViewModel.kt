@@ -37,9 +37,16 @@ class  MainViewModel(application: Application) : AndroidViewModel(application) {
         )
     }
 
+    fun getUsersList() {
+        firebaseRepository.getUsersData().addOnSuccessListener {
+            Log.e("query",it.size().toString())
+        }
+    }
 
 
+    companion object {
 
+    }
 
 
 }

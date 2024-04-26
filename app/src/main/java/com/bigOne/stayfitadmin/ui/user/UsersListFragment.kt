@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.FragmentUsersListBinding
-import com.bumptech.glide.Glide.init
+import com.bigOne.stayfitadmin.ui.home.MainViewModel
 
 
 class UsersListFragment : Fragment() {
@@ -16,6 +18,8 @@ class UsersListFragment : Fragment() {
     lateinit var binding: FragmentUsersListBinding
 
     private lateinit var mAdapter: UserAdapter
+    private val mainViewModel: MainViewModel by activityViewModels()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +32,8 @@ class UsersListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_users_list, container, false)
+
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_users_list, container, false)
         return binding.root
     }
 
@@ -44,11 +49,15 @@ class UsersListFragment : Fragment() {
     }
 
     private fun observer() {
-        TODO("Not yet implemented")
+        mainViewModel.getUsersList()
+    }
+
+    private fun getUsersList() {
+
+
     }
 
     private fun init() {
-        TODO("Not yet implemented")
     }
 
     private fun initAdapter() {
@@ -60,9 +69,7 @@ class UsersListFragment : Fragment() {
         }
 
 
-
-            }
-        }
     }
+}
 
 

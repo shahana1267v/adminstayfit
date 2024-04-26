@@ -13,7 +13,16 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
 
+
+        <action
+            android:id="@+id/action_homeFragment_to_usersListFragment"
+            app:destination="@id/usersListFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/usersListFragment"
+        android:name="com.bigOne.stayfitadmin.ui.user.UsersListFragment"
+        tools:layout="@layout/fragment_users_list"
+        android:label="UsersListFragment" />
 
 
 </navigation>
