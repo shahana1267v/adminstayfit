@@ -4,6 +4,10 @@
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_users.xml.flat",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\drawable\\ic_users.xml"
+    },
+    {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\menu_bottom_nav_menu.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\menu\\bottom_nav_menu.xml"
     },
@@ -12,16 +16,20 @@
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\drawable\\ic_email.xml"
     },
     {
-        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\layout_list_selected_item.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\layout\\list_selected_item.xml"
     },
     {
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_login_cover.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\drawable\\ic_login_cover.xml"
+    },
+    {
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\navigation_mobile_navigation.xml.flat",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\navigation\\mobile_navigation.xml"
     },
     {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_arrow_back_24px.xml.flat",
@@ -30,6 +38,10 @@
     {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_lock_password.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\drawable\\ic_lock_password.xml"
+    },
+    {
+        "merged": "com.bigOne.stayfitadmin.app-merged_res-56:/layout_fragment_home.xml.flat",
+        "source": "com.bigOne.stayfitadmin.app-main-58:/layout/fragment_home.xml"
     },
     {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_profile_cover.xml.flat",
@@ -44,6 +56,10 @@
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\font\\roboto_mono_bold.xml"
     },
     {
+        "merged": "com.bigOne.stayfitadmin.app-merged_res-56:/drawable_ic_fitness.xml.flat",
+        "source": "com.bigOne.stayfitadmin.app-main-58:/drawable/ic_fitness.xml"
+    },
+    {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_home.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\drawable\\ic_home.xml"
     },
@@ -56,12 +72,12 @@
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\layout\\list_each_item.xml"
     },
     {
-        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\drawable_ic_weight.xml.flat",
@@ -170,10 +186,6 @@
     {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.bigOne.stayfitadmin.app-merged_res-56:/layout_activity_main.xml.flat",
-        "source": "com.bigOne.stayfitadmin.app-main-58:/layout/activity_main.xml"
     },
     {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",

@@ -83,9 +83,9 @@
     <string name="kg">KG</string>
     <string name="cm">CM</string>
     <string-array name="gender_options">
-            <item>Other</item>
-            <item>Female</item>
-            <item>Male</item>
+        <item>Other</item>
+        <item>Female</item>
+        <item>Male</item>
     </string-array>
 
     <string name="enter_quantity">Enter Quantity</string>
@@ -96,4 +96,7 @@
     <string name="cal_eaten_title">Calorie Eaten</string>
     <string name="username">Username</string>
     <string name="user">User</string>
+    <string name="trainer">Trainer</string>
+    <string name="usersname">Username</string>
+    <string name="mail_id">mail id</string>
 </resources>

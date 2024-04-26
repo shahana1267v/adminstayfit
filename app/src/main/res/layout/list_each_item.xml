@@ -4,35 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/foodcard"
+        android:id="@+id/userslistcard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardUseCompatPadding="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/name_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_user_dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/titleTv"
                 style="@style/TextAppearance.StayFit.bodyMedium"
-                android:layout_width="match_parent"
-                android:layout_marginHorizontal="@dimen/activity_margin"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:text="@string/idiyappam"
-                android:textColor="@color/black"
+                android:layout_marginHorizontal="@dimen/activity_margin"
                 android:layout_marginTop="@dimen/element_spacing"
+                android:text="@string/usersname"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/calorie_text"
+                android:id="@+id/mail_text"
                 style="@style/TextAppearance.StayFit.bodySmall"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/_156kcl"
+                android:text="@string/mail_id"
                 android:textColor="@color/greyColorDark"
                 app:layout_constraintEnd_toEndOf="@+id/titleTv"
                 app:layout_constraintStart_toStartOf="@+id/titleTv"

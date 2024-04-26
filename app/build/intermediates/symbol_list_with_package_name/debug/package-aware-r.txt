@@ -3218,7 +3218,6 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_account
 drawable ic_add
-drawable ic_add_food
 drawable ic_arc1
 drawable ic_arc2
 drawable ic_arc3
@@ -3237,8 +3236,8 @@ drawable ic_clock_black_24dp
 drawable ic_course
 drawable ic_email
 drawable ic_empty
+drawable ic_fitness
 drawable ic_height
-drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3275,6 +3274,7 @@ drawable ic_triangle_inward_hollow
 drawable ic_triangle_outward
 drawable ic_triangle_outward_hollow
 drawable ic_user_dp
+drawable ic_users
 drawable ic_weight
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3358,7 +3358,6 @@ font poppins_medium
 font poppins_semibold
 font roboto_mono_bold
 id ALT
-id AddWeight
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -3420,7 +3419,6 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
-id action_loginFragment_to_loginSuccessFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3460,11 +3458,6 @@ id beginning
 id bestChoice
 id black
 id blocking
-id bmi_card
-id bmi_head_text
-id bmi_text
-id bmi_text_stage
-id body_type
 id bottom
 id bounce
 id bounceBoth
@@ -3472,10 +3465,7 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id cache_measures
-id cal_etan_title
-id calculate_weight
 id callMeasure
-id calorie
 id calorie_text
 id calorie_title
 id calorie_unit
@@ -3564,7 +3554,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id eat_calorie
 id edge
 id edit_query
 id edit_text_id
@@ -3611,7 +3600,7 @@ id hide_ime_id
 id hideable
 id home
 id homeAsUp
-id home_header
+id homeFragment
 id honorRequest
 id horizontal
 id horizontal_only
@@ -3646,10 +3635,7 @@ id linear
 id listMode
 id list_item
 id locale
-id log_meal_btn
 id login
-id loginFragment
-id loginSuccessFragment
 id login_success_layout
 id ltr
 id m3_side_sheet
@@ -3681,6 +3667,7 @@ id matrix
 id message
 id middle
 id mini
+id mobile_navigation
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3715,18 +3702,13 @@ id multiply
 id nav_controller_view_tag
 id nav_host_fragment
 id nav_host_fragment_container
-id nav_host_login_fragment
-id nav_view
-id navigation_account
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
-id navigation_course
 id navigation_header_container
-id navigation_home
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -3779,7 +3761,6 @@ id percent
 id pin
 id position
 id postLayout
-id poster
 id precedingSlice
 id pressed
 id progressBar
@@ -3822,7 +3803,6 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id see_more
 id select_dialog_listview
 id selected
 id selection_type
@@ -3912,10 +3892,9 @@ id title_template
 id toggle
 id top
 id topPanel
-id total_calorie
 id touch_outside
-id track_target
-id track_target_subtext
+id trainercard_view
+id trainers
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
@@ -3940,7 +3919,9 @@ id useLogo
 id user_email
 id user_image
 id user_name
+id usercard_view
 id username
+id users
 id vertical
 id vertical_only
 id view
@@ -3952,11 +3933,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id weightText
-id weight_now_text
-id weight_text_sub
 id welcome
-id welcomeText
 id west
 id white
 id wide
@@ -4169,10 +4146,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation login_navigation
+navigation mobile_navigation
 plurals mtrl_badge_content_description
 raw firebase_common_keep
 string _156kcl
@@ -4434,7 +4410,9 @@ string total_calorie_156_kcal
 string total_calories_heading
 string track_your_target_sub_text
 string track_your_target_text
+string trainer
 string underweight
+string user
 string username
 string weight
 string weight_text_heading

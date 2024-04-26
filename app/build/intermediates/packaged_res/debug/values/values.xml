@@ -164,7 +164,9 @@
     <string name="total_calories_heading">Total Calories:</string>
     <string name="track_your_target_sub_text">You can track Your Daily calories by entering your meal !</string>
     <string name="track_your_target_text">Log Your Meal!</string>
+    <string name="trainer">Trainer</string>
     <string name="underweight">Underweight</string>
+    <string name="user">User</string>
     <string name="username">Username</string>
     <string name="weight">Weight</string>
     <string name="weight_text_heading">Weight</string>
