@@ -51,8 +51,12 @@ class HomeFragment : Fragment() {
             usercardView.setOnClickListener{
                 val action = HomeFragmentDirections.actionHomeFragmentToUsersListFragment()
                 findNavController().navigate(action)
-            }
 
+            }
+            trainercardView.setOnClickListener {
+                val action = HomeFragmentDirections.actionHomeFragmentToTrainersListFragment()
+                findNavController().navigate(action)
+            }
         }
     }
 }

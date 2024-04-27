@@ -34,12 +34,14 @@ color colorWarningDarker
 color colorWarningLight
 color colorWarningLightDark
 color colorWarningLighter
+color green
 color greyColor
 color greyColorDark
 color greyColorLight
 color mtrl_textinput_default_box_stroke_color
 color primaryColor
 color primaryColorLight
+color red
 color secondaryColor
 color secondaryColorLight
 color white
@@ -98,7 +100,9 @@ font poppins_light
 font poppins_medium
 font poppins_semibold
 font roboto_mono_bold
+id action_homeFragment_to_trainersListFragment
 id action_homeFragment_to_usersListFragment
+id approve_text
 id calorie_title
 id calorie_unit
 id calorie_value
@@ -106,6 +110,7 @@ id cardView2
 id count
 id count_line
 id count_text
+id delete_text
 id email_layout
 id foodcard
 id homeFragment
@@ -114,6 +119,7 @@ id login
 id login_success_layout
 id mail_text
 id mobile_navigation
+id name
 id name_layout
 id nav_host_fragment
 id password
@@ -124,6 +130,7 @@ id titleTv
 id toolbar
 id trainercard_view
 id trainers
+id trainersListFragment
 id unit_text
 id user_email
 id user_image
@@ -142,6 +149,7 @@ layout fragment_login_success
 layout fragment_users_list
 layout list_each_item
 layout list_selected_item
+layout list_trainer_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
@@ -157,6 +165,7 @@ string add_food
 string add_icon_btn
 string add_weight_text
 string app_name
+string approve
 string bmi_Text_head
 string bmi_Text_subhead
 string bmi_see_more
@@ -173,6 +182,7 @@ string cm
 string complete_profile
 string date_of_birth_select_text
 string default_web_client_id
+string delete
 string dinner
 string dob
 string enter_height
@@ -212,6 +222,8 @@ string or_text
 string overweight
 string profile_subtext
 string project_id
+string request
+string requests
 string save
 string save_as_custom_meal
 string searchfood

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.FragmentUsersListBinding
@@ -49,7 +50,10 @@ class UsersListFragment : Fragment() {
     }
 
     private fun observer() {
-        mainViewModel.getUsersList()
+        mainViewModel.getUsersList().observe(viewLifecycleOwner){
+            val users = it.filter{ user-> !user.isTrainer }
+            mAdapter.setItems(users)
+        }
     }
 
     private fun getUsersList() {
@@ -58,7 +62,13 @@ class UsersListFragment : Fragment() {
     }
 
     private fun init() {
+
+        binding.toolbar.title = "Users List"
+        binding.toolbar.setNavigationOnClickListener {
+            findNavController().popBackStack()
+        }
     }
+
 
     private fun initAdapter() {
         binding.apply {

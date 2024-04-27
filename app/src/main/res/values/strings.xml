@@ -99,4 +99,8 @@
     <string name="trainer">Trainer</string>
     <string name="usersname">Username</string>
     <string name="mail_id">mail id</string>
+    <string name="approve">Approve</string>
+    <string name="delete">Delete</string>
+    <string name="request">Request</string>
+    <string name="requests">Request</string>
 </resources>

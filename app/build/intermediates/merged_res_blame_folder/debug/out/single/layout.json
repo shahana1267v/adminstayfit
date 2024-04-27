@@ -1,30 +1,38 @@
 [
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/fragment_login_success.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/fragment_login_success.xml"
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\list_selected_item.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\list_selected_item.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/list_selected_item.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/list_selected_item.xml"
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\activity_main.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/fragment_home.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/fragment_home.xml"
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\fragment_login_success.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\fragment_login_success.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/fragment_users_list.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/fragment_users_list.xml"
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\list_trainer_item.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\list_trainer_item.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/activity_main.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/activity_main.xml"
+        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/list_trainer_item.xml",
+        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/list_trainer_item.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/list_each_item.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/list_each_item.xml"
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\list_each_item.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\list_each_item.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-mergeDebugResources-64:/layout/activity_login.xml",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/activity_login.xml"
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\fragment_home.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\fragment_users_list.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\fragment_users_list.xml"
+    },
+    {
+        "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-mergeDebugResources-64:\\layout\\activity_login.xml",
+        "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\layout\\activity_login.xml"
     }
 ]

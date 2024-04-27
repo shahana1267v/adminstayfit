@@ -17,12 +17,20 @@
         <action
             android:id="@+id/action_homeFragment_to_usersListFragment"
             app:destination="@id/usersListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_trainersListFragment"
+            app:destination="@id/trainersListFragment" />
     </fragment>
     <fragment
         android:id="@+id/usersListFragment"
         android:name="com.bigOne.stayfitadmin.ui.user.UsersListFragment"
         tools:layout="@layout/fragment_users_list"
         android:label="UsersListFragment" />
+    <fragment
+        android:id="@+id/trainersListFragment"
+        android:name="com.bigOne.stayfitadmin.ui.trainer.TrainersListFragment"
+        tools:layout="@layout/fragment_users_list"
+        android:label="TrainersListFragment" />
 
 
 </navigation>

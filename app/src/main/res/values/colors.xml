@@ -52,5 +52,8 @@
     <color name="colorFailed">#FF6D6D</color>
     <color name="colorUnsaved">#FFC107</color>
 
+    <color name="green">#006400</color>
+    <color name="red">#F00000</color>
+
 
 </resources>

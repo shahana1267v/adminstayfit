@@ -1621,6 +1621,7 @@ color fui_bgTwitter
 color fui_buttonShadow
 color fui_linkColor
 color fui_transparent
+color green
 color greyColor
 color greyColorDark
 color greyColorLight
@@ -2291,6 +2292,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondaryColor
@@ -3492,6 +3494,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_homeFragment_to_trainersListFragment
 id action_homeFragment_to_usersListFragment
 id action_image
 id action_menu_divider
@@ -3517,6 +3520,7 @@ id anonymous_button
 id antiClockwise
 id anticipate
 id apple_signin_button
+id approve_text
 id arc
 id arc1
 id arc2
@@ -3618,6 +3622,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_text
 id deltaRelative
 id dependency_ordering
 id desc
@@ -4027,6 +4032,7 @@ id top_progress_bar
 id touch_outside
 id trainercard_view
 id trainers
+id trainersListFragment
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
@@ -4256,6 +4262,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout list_each_item
 layout list_selected_item
+layout list_trainer_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4373,6 +4380,7 @@ string add_weight_text
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string approve
 string bmi_Text_head
 string bmi_Text_subhead
 string bmi_see_more
@@ -4425,6 +4433,7 @@ string complete_profile
 string copy_toast_msg
 string date_of_birth_select_text
 string default_web_client_id
+string delete
 string dest_title
 string dinner
 string dob
@@ -4681,6 +4690,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string profile_subtext
 string project_id
+string request
+string requests
 string save
 string save_as_custom_meal
 string search_menu_title

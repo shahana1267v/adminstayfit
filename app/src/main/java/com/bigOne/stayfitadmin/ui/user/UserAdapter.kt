@@ -4,11 +4,13 @@ import android.content.Context
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.appcompat.content.res.AppCompatResources
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.ListEachItemBinding
 import com.bigOne.stayfitadmin.datas.model.UserData
+import com.bumptech.glide.Glide
 
 class UserAdapter(var mList: MutableList<UserData>, private  val context: Context) : RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
     var onitemClickListner: OnItemClickListener? = null
@@ -18,11 +20,18 @@ class UserAdapter(var mList: MutableList<UserData>, private  val context: Contex
 
         fun bind(item: UserData) {
             binding.apply {
-                titleTv.text = " "
-                mailText.text = " "
-                userslistcard.setOnClickListener {
-                    onitemClickListner?.onClick(item)
-                }
+                name.text = item.name
+                mailText.text = item.email
+                Glide.with(context)
+                    .load(item.img)
+                    .placeholder(
+                        AppCompatResources.getDrawable(context,
+                            R.drawable.ic_user_dp)!!)
+                    .error(
+                        AppCompatResources.getDrawable(context,
+                            R.drawable.ic_user_dp)!!)
+                    .into(binding.imageView)
+
             }
 
         }

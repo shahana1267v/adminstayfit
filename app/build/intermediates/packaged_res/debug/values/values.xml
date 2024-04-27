@@ -56,12 +56,14 @@
     <color name="colorWarningLight">#ffff81</color>
     <color name="colorWarningLightDark">#FFC107</color>
     <color name="colorWarningLighter">#FFEFBC</color>
+    <color name="green">#006400</color>
     <color name="greyColor">#ADA4A5</color>
     <color name="greyColorDark">#7B6F72</color>
     <color name="greyColorLight">#DDDADA</color>
     <color name="mtrl_textinput_default_box_stroke_color" ns1:override="true">#9A9A9A</color>
     <color name="primaryColor">#92A3FD</color>
     <color name="primaryColorLight">#9DCEFF</color>
+    <color name="red">#F00000</color>
     <color name="secondaryColor">#C58BF2</color>
     <color name="secondaryColorLight">#EEA4CE</color>
     <color name="white">#FFFFFF</color>
@@ -104,6 +106,7 @@
     <string name="add_icon_btn">add icon</string>
     <string name="add_weight_text">Add weight</string>
     <string name="app_name">StayFitAdmin</string>
+    <string name="approve">Approve</string>
     <string name="bmi_Text_head">BMI(Body Mass Index.)</string>
     <string name="bmi_Text_subhead">You have a Normal Body</string>
     <string name="bmi_see_more">See More</string>
@@ -120,6 +123,7 @@
     <string name="complete_profile">Let\'s complete your profile</string>
     <string name="date_of_birth_select_text">Select Date of Birth</string>
     <string name="default_web_client_id" translatable="false">583288639906-scmbrq0qh76iedfe5q4sts5mmfvsjrlg.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
     <string name="dinner">Dinner</string>
     <string name="dob">DOB</string>
     <string name="enter_height">Height</string>
@@ -159,6 +163,8 @@
     <string name="overweight">Overweight</string>
     <string name="profile_subtext">It will help us to know more about you..</string>
     <string name="project_id" translatable="false">stayfit-5cbfc</string>
+    <string name="request">Request</string>
+    <string name="requests">Request</string>
     <string name="save">Save</string>
     <string name="save_as_custom_meal">Save as custom meal</string>
     <string name="searchfood">SearchFood</string>

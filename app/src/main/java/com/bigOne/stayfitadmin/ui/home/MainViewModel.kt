@@ -20,7 +20,33 @@ class  MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _isUpdateUser = MutableLiveData<Boolean>(false)
     val isUpdateUser : LiveData<Boolean> = _isUpdateUser
 
+    private val _users = MutableLiveData<List<UserData>>()
+    val users: LiveData<List<UserData>> = _users
 
+    fun getUsersList(): LiveData<List<UserData>> {
+        firebaseRepository.getUsersData().addOnCompleteListener { task ->
+            if (task.isSuccessful) {
+                val users = mutableListOf<UserData>()
+
+                val documents = task.result?.documents
+
+                if (documents != null) {
+                    for (document in documents) {
+                        val data = document.data
+                        val user = data?.let { mapToUserData(it) }
+                        Log.e("queryusers", data.toString())
+                        if (user != null) {
+                            users.add(user)
+                        }
+                    }
+                }
+
+                _users.value = users
+                Log.e("queryusersArray", users.toString())
+            }
+        }
+        return users
+    }
 
 
 
@@ -33,15 +59,16 @@ class  MainViewModel(application: Application) : AndroidViewModel(application) {
             sex = data["sex"] as String,
             dob = data["dob"] as String,
             weight = data["weight"] as String,
-            height = data["height"] as String
+            height = data["height"] as String,
+           id = data["id"] as String,
+            img = data["img"] as String,
+            email = data["email"] as String,
+            name = data["name"] as String,
+            isTrainer = data["trainer"] as Boolean,
+            approved = data["approved"] as Boolean
         )
     }
 
-    fun getUsersList() {
-        firebaseRepository.getUsersData().addOnSuccessListener {
-            Log.e("query",it.size().toString())
-        }
-    }
 
 
     companion object {
