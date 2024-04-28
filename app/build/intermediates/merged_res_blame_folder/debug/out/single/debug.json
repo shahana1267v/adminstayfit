@@ -144,10 +144,6 @@
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\drawable\\ic_profile.xml"
     },
     {
-        "merged": "com.bigOne.stayfitadmin.app-merged_res-65:/layout_list_trainer_item.xml.flat",
-        "source": "com.bigOne.stayfitadmin.app-main-67:/layout/list_trainer_item.xml"
-    },
-    {
         "merged": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "E:\\StayfitAdmin\\app\\src\\main\\res\\drawable\\daemon\\8.0\\com.bigOne.stayfitadmin.app-main-67:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },

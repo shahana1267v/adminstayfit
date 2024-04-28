@@ -4380,6 +4380,7 @@ int string androidx_startup 0x7f130026
 int string app_name 0x7f130027
 int string appbar_scrolling_view_behavior 0x7f130028
 int string approve 0x7f130179
+int string approved_text 0x7f13017d
 int string bmi_Text_head 0x7f130029
 int string bmi_Text_subhead 0x7f13002a
 int string bmi_see_more 0x7f13002b
@@ -4554,7 +4555,9 @@ int string gcm_defaultSenderId 0x7f1300d2
 int string gender 0x7f1300d3
 int string general_cancel 0x7f1300d4
 int string general_next 0x7f1300d5
+int string general_no 0x7f13017e
 int string general_save 0x7f1300d6
+int string general_yes 0x7f13017f
 int string google_api_key 0x7f1300d7
 int string google_app_id 0x7f1300d8
 int string google_crash_reporting_api_key 0x7f1300d9

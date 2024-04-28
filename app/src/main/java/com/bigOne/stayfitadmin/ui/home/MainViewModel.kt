@@ -23,6 +23,10 @@ class  MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _users = MutableLiveData<List<UserData>>()
     val users: LiveData<List<UserData>> = _users
 
+
+    private val _isApproveTrainer = MutableLiveData<Boolean>(false)
+    val isApproveTrainer : LiveData<Boolean> = _isApproveTrainer
+
     fun getUsersList(): LiveData<List<UserData>> {
         firebaseRepository.getUsersData().addOnCompleteListener { task ->
             if (task.isSuccessful) {
@@ -74,7 +78,16 @@ class  MainViewModel(application: Application) : AndroidViewModel(application) {
     companion object {
 
     }
-
-
+    fun approvedTrainer(id: String): LiveData<Boolean> {
+        firebaseRepository.approvedTrainer(id).addOnSuccessListener {
+            _isApproveTrainer.value = true
+        }.addOnFailureListener {
+            _isApproveTrainer.value=false
+        }
+        return  isApproveTrainer
+    }
 }
+
+
+
 

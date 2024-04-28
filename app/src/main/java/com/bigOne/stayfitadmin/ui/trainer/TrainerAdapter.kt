@@ -41,7 +41,11 @@ class TrainerAdapter(var mList: MutableList<UserData>, private  val context: Con
                 {
                     approveText.text="Requested"
                 }
+                approveText.setOnClickListener {
+                    onitemClickListner?.onClick(item)
+                }
             }
+
 
         }
 

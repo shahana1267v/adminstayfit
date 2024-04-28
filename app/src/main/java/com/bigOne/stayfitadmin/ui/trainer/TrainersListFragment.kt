@@ -1,9 +1,12 @@
 package com.bigOne.stayfitadmin.ui.trainer
 
+import android.content.Context
 import android.os.Bundle
+import android.view.ContextThemeWrapper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
@@ -11,7 +14,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.FragmentUsersListBinding
+import com.bigOne.stayfitadmin.datas.model.UserData
 import com.bigOne.stayfitadmin.ui.home.MainViewModel
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 
 class TrainersListFragment : Fragment() {
@@ -50,8 +55,8 @@ class TrainersListFragment : Fragment() {
     }
 
     private fun observer() {
-        mainViewModel.getUsersList().observe(viewLifecycleOwner){
-            val trainers = it.filter{ user-> user.isTrainer }
+        mainViewModel.getUsersList().observe(viewLifecycleOwner) {
+            val trainers = it.filter { user -> user.isTrainer }
             mAdapter.setItems(trainers)
         }
     }
@@ -74,10 +79,41 @@ class TrainersListFragment : Fragment() {
             recyclerView.setHasFixedSize(true)
             mAdapter = TrainerAdapter(mutableListOf(), requireContext())
             recyclerView.adapter = mAdapter
+
+            mAdapter.onitemClickListner = object : TrainerAdapter.OnItemClickListener {
+                override fun onClick(item: UserData) {
+                    Toast.makeText(requireContext(), "${item.name}", Toast.LENGTH_SHORT).show()
+                    if (!item.approved) {
+
+                        val context: Context =
+                            ContextThemeWrapper(requireContext(), R.style.DialogStyle)
+                        MaterialAlertDialogBuilder(context)
+                            .setMessage("Do you want to approved?")
+                            .setCancelable(false)
+                            .setNeutralButton(resources.getString(R.string.general_no)) { _, _ ->
+
+
+                            }
+                            .setPositiveButton(resources.getString(R.string.general_yes)) { _, _ ->
+
+                                mainViewModel.approvedTrainer(item.id).observe(viewLifecycleOwner) {
+                                    Toast.makeText(requireContext(), "Sucess", Toast.LENGTH_SHORT)
+                                        .show()
+                                    binding.toolbar.visibility = View.GONE
+
+                                }
+                                }.show()
+
+                            }
+                    }
+                }
+            }
         }
-
-
     }
-}
+
+
+
+
+
 
 

@@ -107,6 +107,7 @@
     <string name="add_weight_text">Add weight</string>
     <string name="app_name">StayFitAdmin</string>
     <string name="approve">Approve</string>
+    <string name="approved_text">Approved</string>
     <string name="bmi_Text_head">BMI(Body Mass Index.)</string>
     <string name="bmi_Text_subhead">You have a Normal Body</string>
     <string name="bmi_see_more">See More</string>
@@ -138,7 +139,9 @@
     <string name="gender">Gender</string>
     <string name="general_cancel">Cancel</string>
     <string name="general_next">Next</string>
+    <string name="general_no">No</string>
     <string name="general_save">Save</string>
+    <string name="general_yes">Yes</string>
     <string name="google_api_key" translatable="false">AIzaSyB1qUs8V4VBwKVPqaeLc-txmgYTjkP3-vs</string>
     <string name="google_app_id" translatable="false">1:583288639906:android:26e5631ac34a1cded6a2fb</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB1qUs8V4VBwKVPqaeLc-txmgYTjkP3-vs</string>

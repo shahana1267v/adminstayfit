@@ -4381,6 +4381,7 @@ string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
 string approve
+string approved_text
 string bmi_Text_head
 string bmi_Text_subhead
 string bmi_see_more
@@ -4555,7 +4556,9 @@ string gcm_defaultSenderId
 string gender
 string general_cancel
 string general_next
+string general_no
 string general_save
+string general_yes
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key

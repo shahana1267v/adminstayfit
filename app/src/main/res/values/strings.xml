@@ -104,4 +104,6 @@
     <string name="request">Request</string>
     <string name="requests">Request</string>
     <string name="approved_text">Approved</string>
+    <string name="general_no">No</string>
+    <string name="general_yes">Yes</string>
 </resources>
