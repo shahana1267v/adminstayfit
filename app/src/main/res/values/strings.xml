@@ -103,4 +103,5 @@
     <string name="delete">Delete</string>
     <string name="request">Request</string>
     <string name="requests">Request</string>
+    <string name="approved_text">Approved</string>
 </resources>

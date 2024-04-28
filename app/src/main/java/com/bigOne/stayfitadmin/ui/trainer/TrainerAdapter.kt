@@ -35,7 +35,7 @@ class TrainerAdapter(var mList: MutableList<UserData>, private  val context: Con
 
                 if (item.approved)
                 {
-                    approveText.text="Approved"
+                    approveText.text= context.getString(R.string.approved_text)
                 }
                 else
                 {
