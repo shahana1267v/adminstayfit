@@ -11,7 +11,6 @@ import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.ListEachItemBinding
 import com.bigOne.stayfitadmin.databinding.ListTrainerItemBinding
 import com.bigOne.stayfitadmin.datas.model.UserData
-import com.bigOne.stayfitadmin.ui.user.UserAdapter
 import com.bumptech.glide.Glide
 
 class TrainerAdapter(var mList: MutableList<UserData>, private  val context: Context) : RecyclerView.Adapter<TrainerAdapter.UserViewHolder>() {
@@ -47,14 +46,13 @@ class TrainerAdapter(var mList: MutableList<UserData>, private  val context: Con
                 }
             }
 
-              }
 
         }
 
 
+    }
 
-
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserAdapter.UserViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
         val binding = DataBindingUtil.inflate<ListTrainerItemBinding>(
             LayoutInflater.from(parent.context),
             R.layout.list_trainer_item,

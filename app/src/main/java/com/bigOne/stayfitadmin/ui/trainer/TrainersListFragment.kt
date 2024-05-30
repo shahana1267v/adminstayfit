@@ -71,7 +71,7 @@ class TrainersListFragment : Fragment() {
         binding.toolbar.setNavigationOnClickListener {
             findNavController().popBackStack()
         }
-        
+
     }
 
     private fun initAdapter() {
