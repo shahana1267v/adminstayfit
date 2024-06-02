@@ -30,7 +30,26 @@
         android:id="@+id/trainersListFragment"
         android:name="com.bigOne.stayfitadmin.ui.trainer.TrainersListFragment"
         tools:layout="@layout/fragment_users_list"
-        android:label="TrainersListFragment" />
+        android:label="TrainersListFragment" >
+        <action
+            android:id="@+id/action_trainersListFragment_to_trainerDetailsFragment"
+            app:destination="@id/trainerDetailsFragment">
+            <argument
+                android:name="userData"
+                app:argType="com.bigOne.stayfitadmin.datas.model.UserData" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/trainerDetailsFragment"
+        android:name="com.bigOne.stayfitadmin.ui.trainer.TrainerDetailsFragment"
+        tools:layout="@layout/fragment_trainer_details"
+        android:label="TrainerDetailsFragment">
+        <argument
+            android:name="userData"
+            app:argType="com.bigOne.stayfitadmin.datas.model.UserData" />
+    </fragment>
+
+
 
 
 </navigation>

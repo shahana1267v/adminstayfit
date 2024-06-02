@@ -68,8 +68,10 @@ class  MainViewModel(application: Application) : AndroidViewModel(application) {
             img = data["img"] as? String?:"",
             email = data["email"] as? String?:"",
             name = data["name"] as? String?:"",
-            isTrainer = data["trainer"] as Boolean,
-            approved = data["approved"] as Boolean,
+            isTrainer = data["trainer"] as? Boolean ?: false,
+            approved = data["approved"] as? Boolean ?: false,
+            experience = data["experience"] as? String ?: "",
+            qualification = data["qualification"] as?String?:""
 
         )
     }

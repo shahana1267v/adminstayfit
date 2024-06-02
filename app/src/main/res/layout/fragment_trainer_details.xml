@@ -29,136 +29,149 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/signupview">
 
-            <LinearLayout
-                android:id="@+id/linearLayout"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="@dimen/activity_margin"
-               android:layout_marginStart="@dimen/tab_spacing"/>
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
+                <LinearLayout
+                    android:id="@+id/linearLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/double_margin">
+                    android:orientation="vertical"
+                    android:padding="@dimen/activity_margin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
 
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@+id/accTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/login_logged_in_as"
-                        android:textColor="@color/black"
-                        android:textAppearance="@style/TextAppearance.StayFit.bodySmall"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:textAllCaps="true"
-                        android:layout_marginStart="@dimen/tab_spacing"
-                        android:layout_marginTop="@dimen/tab_spacing"/>
-
-                    <com.symeonchen.roundimageview.RoundImageView
-                        android:id="@+id/accImage"
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="@dimen/activity_margin"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/ic_user_dp"
-                        app:corner_radius="27dp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/accTitle" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@+id/accName"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/activity_margin"
-                        android:textAppearance="@style/TextAppearance.StayFit.bodyMedium"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/accImage"
-                        app:layout_constraintTop_toTopOf="@+id/accImage"
-                        tools:text="John Doe" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@+id/accEmail"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="@style/TextAppearance.StayFit.bodySmall"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="@+id/accName"
-                        app:layout_constraintTop_toBottomOf="@+id/accName"
-                        tools:text="john.doe@gmail.com" />
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/Qualification"
-                        style="@style/Widget.App.TextInputLayout.EditText"
+                    <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginHorizontal="@dimen/activity_margin"
-                        android:layout_marginTop="200dp"
-                        android:hint="@string/qualification"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
-
-                    </com.google.android.material.textfield.TextInputLayout>
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/Experience"
-                        style="@style/Widget.App.TextInputLayout.EditText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginHorizontal="@dimen/activity_margin"
-                        android:layout_marginTop="@dimen/double_margin"
-                        android:hint=" experience"
-                        app:layout_constraintTop_toBottomOf="@+id/Qualification"
-                        app:layout_constraintStart_toStartOf="@id/Qualification">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
-                    </com.google.android.material.textfield.TextInputLayout>
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/certificates"
-                        style="@style/Widget.App.TextInputLayout.EditText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginHorizontal="@dimen/activity_margin"
-                        android:layout_marginTop="@dimen/double_margin"
-                        android:hint="Certificates"
-                        app:layout_constraintTop_toBottomOf="@+id/Experience"
-                        app:layout_constraintStart_toStartOf="@id/Experience">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                        android:layout_marginBottom="@dimen/double_margin">
 
 
 
+                        <com.symeonchen.roundimageview.RoundImageView
+                            android:id="@+id/accImage"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="@dimen/activity_margin"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_user_dp"
+                            app:corner_radius="27dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                             />
 
-                    </com.google.android.material.textfield.TextInputLayout>
-                    <LinearLayout
-                        android:id="@+id/upload_layout"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        app:layout_constraintTop_toBottomOf="@id/certificates">
-                    <TextView
-                        android:id="@+id/uploadtext"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text=" Files"
-                        android:textSize="19sp"
-                        android:textAlignment="center"
-                        android:layout_marginTop="44sp"
-                        style="@style/TextAppearance.StayFit.bodySmall">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/accName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/activity_margin"
+                            android:textAppearance="@style/TextAppearance.StayFit.bodyMedium"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/accImage"
+                            app:layout_constraintTop_toTopOf="@+id/accImage"
+                            tools:text="John Doe" />
 
-                    </TextView>
-                    </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/accEmail"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.StayFit.bodySmall"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/accName"
+                            app:layout_constraintTop_toBottomOf="@+id/accName"
+                            tools:text="john.doe@gmail.com" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </LinearLayout>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/qualification_text"
+                    style="@style/TextAppearance.StayFit.bodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/activity_margin"
+                    android:layout_marginTop="@dimen/double_margin"
+                    android:layout_marginStart="10dp"
+                    android:text="Qualification : "
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/Qualification"
+                    style="@style/TextAppearance.StayFit.bodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/qualification"
+                    app:layout_constraintStart_toStartOf="@+id/qualification_text"
+                    app:layout_constraintTop_toBottomOf="@+id/qualification_text">
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/experience_text"
+                    style="@style/TextAppearance.StayFit.bodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/tab_spacing"
+                    android:text="Experience : "
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="@dimen/double_margin"
+                    app:layout_constraintTop_toBottomOf="@+id/Qualification"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/Experience"
+                    style="@style/TextAppearance.StayFit.bodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint=" experience"
+                    app:layout_constraintStart_toStartOf="@id/Qualification"
+                    app:layout_constraintTop_toBottomOf="@+id/experience_text"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/certificates_text"
+                    style="@style/TextAppearance.StayFit.bodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/tab_spacing"
+                    android:text="Certificates  :"
+                    android:layout_marginTop="@dimen/double_margin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Experience"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/certificates"
+                    style="@style/TextAppearance.StayFit.bodyMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Certificates"
+                    app:layout_constraintStart_toStartOf="@+id/certificates_text"
+                    app:layout_constraintTop_toBottomOf="@+id/certificates_text">
+
+                </androidx.appcompat.widget.AppCompatTextView>
 
 
 
-                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/approve_text"
+                    android:text="@string/requests"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="180dp"
+                    app:layout_constraintTop_toBottomOf="@id/certificates"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

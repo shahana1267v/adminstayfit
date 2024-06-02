@@ -43,9 +43,7 @@ class TrainersListFragment : Fragment() {
         return binding.root
     }
 
-    init {
 
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -81,31 +79,23 @@ class TrainersListFragment : Fragment() {
             mAdapter = TrainerAdapter(mutableListOf(), requireContext())
             recyclerView.adapter = mAdapter
 
-            mAdapter.onitemClickListner = object : TrainerAdapter.OnItemClickListener {
+
+            mAdapter.onitemClickListner = object :TrainerAdapter.OnItemClickListener {
                 override fun onClick(item: UserData) {
-                    Toast.makeText(requireContext(), "${item.name}", Toast.LENGTH_SHORT).show()
-                    if (!item.approved) {
+                    mAdapter.setItems(mutableListOf())
+                    Toast.makeText(requireContext(), "clicked", Toast.LENGTH_SHORT).show()
 
-                        val context: Context =
-                            ContextThemeWrapper(requireContext(), R.style.DialogStyle)
-                        MaterialAlertDialogBuilder(context)
-                            .setMessage("Do you want to approved?")
-                            .setCancelable(false)
-                            .setNeutralButton(resources.getString(R.string.general_no)) { _, _ ->
+                    val action = TrainersListFragmentDirections.actionTrainersListFragmentToTrainerDetailsFragment(item)
+                    findNavController().navigate(action)
 
 
-                            }
-                            .setPositiveButton(resources.getString(R.string.general_yes)) { _, _ ->
 
-                                mainViewModel.approvedTrainer(item.id).observe(viewLifecycleOwner) {
-                                    Toast.makeText(requireContext(), "Sucess", Toast.LENGTH_SHORT)
-                                        .show()
-                                    binding.toolbar.visibility = View.GONE
 
-                                }
-                                }.show()
 
-                            }
+
+
+
+
                     }
                 }
             }

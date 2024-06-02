@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bigOne.stayfitadmin.R
 import com.bigOne.stayfitadmin.databinding.ListEachItemBinding
@@ -15,6 +16,7 @@ import com.bumptech.glide.Glide
 
 class TrainerAdapter(var mList: MutableList<UserData>, private  val context: Context) : RecyclerView.Adapter<TrainerAdapter.UserViewHolder>() {
     var onitemClickListner: OnItemClickListener? = null
+
     inner class UserViewHolder(private val binding: ListTrainerItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
@@ -26,60 +28,58 @@ class TrainerAdapter(var mList: MutableList<UserData>, private  val context: Con
                 Glide.with(context)
                     .load(item.img)
                     .placeholder(
-                        AppCompatResources.getDrawable(context,
-                            R.drawable.ic_user_dp)!!)
+                        AppCompatResources.getDrawable(
+                            context,
+                            R.drawable.ic_user_dp
+                        )!!
+                    )
                     .error(
-                        AppCompatResources.getDrawable(context,
-                            R.drawable.ic_user_dp)!!)
+                        AppCompatResources.getDrawable(
+                            context,
+                            R.drawable.ic_user_dp
+                        )!!
+                    )
                     .into(binding.imageView)
-
-                if (item.approved)
-                {
-                    approveText.text= context.getString(R.string.approved_text)
-                }
-                else
-                {
-                    approveText.text="Requested"
-                }
-                approveText.setOnClickListener {
+                trainercardView.setOnClickListener {
                     onitemClickListner?.onClick(item)
+
+
                 }
+
             }
-
-
         }
 
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
-        val binding = DataBindingUtil.inflate<ListTrainerItemBinding>(
-            LayoutInflater.from(parent.context),
-            R.layout.list_trainer_item,
-            parent,
-            false
-        )
-        return UserViewHolder(binding)
-    }
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
+            val binding = DataBindingUtil.inflate<ListTrainerItemBinding>(
+                LayoutInflater.from(parent.context),
+                R.layout.list_trainer_item,
+                parent,
+                false
+            )
+            return UserViewHolder(binding)
+        }
 
-    override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
-        val item = mList[position]
-        holder.bind(item)
-    }
+        override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
+            val item = mList[position]
+            holder.bind(item)
+        }
 
-    override fun getItemCount(): Int {
-        return mList.size
-    }
+        override fun getItemCount(): Int {
+            return mList.size
+        }
 
 
-    fun setItems(newItems: List<UserData>) {
-        mList.clear()
-        mList.addAll(newItems)
-        Log.e("query Adapter", mList.toString())
-        notifyDataSetChanged()
-    }
+        fun setItems(newItems: List<UserData>) {
+            mList.clear()
+            mList.addAll(newItems)
+            Log.e("query Adapter", mList.toString())
+            notifyDataSetChanged()
+        }
 
-    interface OnItemClickListener {
-        fun onClick(item: UserData)
+        interface OnItemClickListener {
+            fun onClick(item: UserData)
+        }
     }
-}

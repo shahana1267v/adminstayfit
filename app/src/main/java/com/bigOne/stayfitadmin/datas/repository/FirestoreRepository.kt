@@ -4,6 +4,8 @@ import android.app.Application
 import android.util.Log
 import com.bigOne.stayfitadmin.datas.model.UserData
 import com.google.android.gms.tasks.Task
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QuerySnapshot
 
@@ -16,8 +18,10 @@ class FirestoreRepository(c :Application) {
     private fun activityViewModels() {
 
     }
-
+    val TAG = "FIREBASE_REPOSITORY"
     var db = FirebaseFirestore.getInstance()
+
+
 
 
     companion object {
@@ -59,18 +63,21 @@ class FirestoreRepository(c :Application) {
 
     private fun mapToUserData(data: Map<String, Any>): UserData {
         return UserData(
-            sex = data["sex"] as String,
-            dob = data["dob"] as String,
-            weight = data["weight"] as String,
-            height = data["height"] as String,
-            name = data["name"] as String,
-            email = data["email"] as String,
-            id = data["id"] as String,
-            img = data["img"] as String,
+            sex = data["sex"] as String?,
+            dob = data["dob"] as String?,
+            weight = data["weight"] as String?,
+            height = data["height"] as String?,
+            name = data["name"] as String?,
+            email = data["email"] as String?,
+            id = data["id"] as String?,
+            img = data["img"] as String?,
             isTrainer = data["trainer"] as Boolean,
-            approved = data["approved"] as Boolean
+            approved = data["approved"] as Boolean,
+            qualification = data["qualification"] as String?,
+            experience = data["experience"] as String?
         )
     }
+
 
 
 }

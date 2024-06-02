@@ -53,24 +53,9 @@
                 app:layout_constraintStart_toStartOf="@+id/name"
                 app:layout_constraintTop_toBottomOf="@+id/name" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/approve_text"
-                android:text="@string/requests"
-                android:textColor="@color/green"
-                android:layout_marginTop="@dimen/activity_margin"
-                app:layout_constraintTop_toBottomOf="@id/mail_text"
-                app:layout_constraintStart_toStartOf="parent"/>
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/delete_text"
-                android:text="@string/delete"
-                android:textColor="@color/red"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="@id/name_layout"/>
+
+
 
 
 

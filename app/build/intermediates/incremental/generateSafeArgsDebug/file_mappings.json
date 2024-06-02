@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\mobile_navigation.xml","javaFiles":["com.bigOne.stayfitadmin.ui.home.HomeFragmentDirections"]}]
+[{"navFile":"src\\main\\res\\navigation\\mobile_navigation.xml","javaFiles":["com.bigOne.stayfitadmin.ui.home.HomeFragmentDirections","com.bigOne.stayfitadmin.ui.trainer.TrainersListFragmentDirections","com.bigOne.stayfitadmin.ui.trainer.TrainerDetailsFragmentArgs"]}]
